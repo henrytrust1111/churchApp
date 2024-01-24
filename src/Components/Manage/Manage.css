@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+  
+   #root{
+    width: 100%;
+    height: 100vh;
+   }
+   .body{
+    width: 100%;
+    height: 100%;
+    background-color:white(201, 191, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  .bodywrapper{
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* -webkit-box-shadow: 4px 6px 52px -4px rgba(0,0,0,0.42);
+  -moz-box-shadow: 4px 6px 52px -4px rgba(0,0,0,0.42); */
+  }
+  .managemember{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .managemember P{
+    font-size: xx-large;
+    color: rgb(109, 109, 221);
+  }
+  .info{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .memberinfo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(121, 235, 121); */
+    background-color: rgb(230, 218, 218);
+  }
+  .membername{
+    width: 30%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .memberrole{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+  }
+  
+  /* .memberrole P{
+    margin-right: 150px;
+  } */
+  .memberaction{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .edit{
+    cursor: pointer;
+  }
+  .delete{
+    cursor: pointer;
+  }

@@ -1,0 +1,170 @@
+.homiz{
+    width: 100%;
+    height: 100vh;
+    /* background-color: white; */
+    background-image: url('./edu2.avif');
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.homizWrap{
+    width: 80%;
+    min-width: 1300px;
+    height: 85%;
+    background-color: transparent;
+    
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    
+}
+.header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+.headerWrap{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 3px;
+
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.leftRight{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 900;
+    gap: 10px;
+}
+.leftRight p:hover{
+    color: blue;
+}
+.rightRight{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    justify-content: flex-end;
+}
+.rightRight button{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    font-weight: 800;
+}
+.rightRight button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.heroWrap{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+.heroRight{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
+ .heroRight h1 {
+    width: 70%;
+    font-size: 45px;
+    line-height: 1.8;
+} 
+
+.desc{
+    width: 100%;
+    height: 10%;
+}
+.desc span {
+    font-size: 20px;
+    color: black;
+} 
+
+.heroLeft{
+    width: 50%;
+    height: 80%;
+
+}
+.heroLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
