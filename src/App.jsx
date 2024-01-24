@@ -2,7 +2,6 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import Attendance from './Components/Attendance/Attendance'
 import Home from './Components/Home/Home'
-import Manage from './Components/Manage/Manage'
 import Payment from './Components/Payment/Payment'
 import SignUp from './Components/Sign/Signup'
 import Login from './Components/Login/Login'
@@ -12,6 +11,7 @@ import Pastor_Admin from './Components/Auth/Pastor_Admin'
 import View_Payment from './Components/Payment/View_Payment'
 import View_Attendance from './Components/Attendance/View_Attendance'
 import Accountants_Pastor from './Components/Auth/Accountants_Pastor'
+import Manage from './Components/Manage/Manage'
 
 const router=createBrowserRouter([
   {
@@ -43,7 +43,7 @@ const router=createBrowserRouter([
     children:[
       {
         path:"/manage",
-        element: <Manage/>
+        element: <Manage />
       },
     ]
   },
