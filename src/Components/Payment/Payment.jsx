@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Payment.css";
+import "./payment.css";
 
 const Payment = () => {
   const [fullName, setFullName] = useState("");
