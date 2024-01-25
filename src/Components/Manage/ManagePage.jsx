@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./manage.css";
+import "./managePage.css";
 import { FaCaretDown, FaEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 

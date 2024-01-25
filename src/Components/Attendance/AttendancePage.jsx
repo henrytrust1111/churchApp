@@ -1,4 +1,4 @@
-import "./attendance.css";
+import "./AttendancePage.css";
 const Attendance = () => {
   return (
     <div className="attendancebody">

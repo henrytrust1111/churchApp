@@ -1,5 +1,5 @@
 import React from "react";
-import "./login.css";
+import "./loginPage.css";
 import { MdOutlineContactMail } from "react-icons/md";
 import { RiLockPasswordFill } from "react-icons/ri";
 import { useState } from "react";
