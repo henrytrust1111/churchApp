@@ -1,6 +1,7 @@
 import React from "react";
 import "./homePage.css";
 import { Link, useNavigate } from "react-router-dom";
+import { FiAlignJustify } from "react-icons/fi";
 
 const Home = () => {
   const users = JSON.parse(localStorage.getItem("userData"));
@@ -62,7 +63,7 @@ const Home = () => {
                 <p onClick={manageMembers}> Manage Members</p>
                 <p onClick={viewAttendance}>View Attendance</p>
               </div>
-
+              <div className="burgerIcon"><FiAlignJustify /></div>
               <div className="rightRight">
                 {users && email && password ? (
                   <button onClick={logout}>Logout</button>

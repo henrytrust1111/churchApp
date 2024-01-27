@@ -13,10 +13,8 @@
 
 .homizWrap{
     width: 80%;
-    min-width: 1300px;
     height: 85%;
     background-color: transparent;
-    
     display: flex;
     flex-direction: column;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
@@ -100,9 +98,10 @@
     font-size: 18px;
     font-weight: 900;
     justify-content: flex-end;
+    /* background-color: aqua; */
 }
 .rightRight button{
-    width: 100%;
+    width: 94px;
     height: 40px;
     background-color: white;
     border: 1px solid blue;
@@ -168,3 +167,67 @@
     object-fit: cover;
 }
 
+.burgerIcon{
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (width <= 428px) {
+    .homizWrap{
+        width: 97%;
+        height: 85%; 
+        gap: 10px;
+    }
+    .leftRight{
+        display: none;
+    }
+    .burgerIcon{
+        display: block;
+    }
+    .right{
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .rightRight{
+        width: max-content;
+    }
+    .rightRight button{
+        min-width: 94px;
+    }
+    .heroWrap{
+        width: 95%;
+        flex-direction: column-reverse;
+    }
+    .heroRight{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+     .heroRight h1 {
+        width: 100%;
+        font-size: 35px;
+        line-height: 1.2;
+        text-align: center;
+    } 
+    .desc{
+        display: flex;
+        justify-content: center;
+    }
+    .desc span {
+        width: 100%;
+        text-align: center;
+    } 
+    
+    .heroLeft{
+        width: 100%;
+        height: 50%;
+    
+    }
+    .heroLeft img{
+        object-fit: contain;
+    }
+    
+}

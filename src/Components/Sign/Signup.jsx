@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
+import "./Signin.css"
 
 const SignUp = () => {
   const [role, setRole] = useState();
@@ -49,9 +50,10 @@ const SignUp = () => {
       }}
     >
       <div
+      className="signUp-wrapper"
         style={{
-          width: "40%",
-          minWidth: "600px",
+          width: "50%",
+          // minWidth: "600px",
           height: "max-content",
           background: "#fff",
           display: "flex",
@@ -62,6 +64,7 @@ const SignUp = () => {
           paddingBlock: "30px",
           boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
         }}
+        
       >
         <h1>SignUp</h1>
         <div
@@ -75,6 +78,7 @@ const SignUp = () => {
               display: "flex",
               flexDirection: "column",
             }}
+            className="inputContainer"
           >
             <label
               style={{

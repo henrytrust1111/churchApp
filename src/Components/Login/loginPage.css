@@ -30,7 +30,7 @@
     align-items: center;
 }
 .top{
-    width: 40%;
+    min-width: 244px;
     height: 60%;
     display: flex;
     background-color: white;
@@ -54,7 +54,7 @@
 }
 
 .midz{
-    width: 40%;
+    min-width: 244px;
     height: 60%;
     display: flex;
     background-color: white;
@@ -90,7 +90,7 @@
 }
 
 .login button{
-    width: 25%;
+    min-width: 66px;
     height: 30px;
     background-color: rgb(46, 4, 254);
     font-size: 12px;
@@ -108,3 +108,4 @@
      justify-content: flex-start;
      align-items: flex-start;
 }
+

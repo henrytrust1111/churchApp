@@ -1,0 +1,6 @@
+@media screen and (width <= 428px) {
+    .signUp-wrapper{
+        width: 97% !important;
+        /* background-color: aqua; */
+    }
+}
