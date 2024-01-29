@@ -1,3 +1,7 @@
+.createAccount{
+    cursor: pointer;
+}
+
 @media screen and (width <= 428px) {
     .signUp-wrapper{
         width: 97% !important;

@@ -43,7 +43,7 @@ const Login = () => {
   const Nav = useNavigate();
 
   const handleForm = () => {
-    if (!authorizeUsers) {
+    if (!authorizeUsers && !password && !email) {
       alert("You are not a resgistered member!");
     } else {
       Nav("/");

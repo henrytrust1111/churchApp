@@ -9,12 +9,6 @@ const SignUp = () => {
   const [email, setEmail] = useState();
   const [phoneNumber, setPhoneNumber] = useState();
   const [password, setPassword] = useState();
-  console.log(role);
-  console.log(firstName);
-  console.log(lastName);
-  console.log(email);
-  console.log(phoneNumber);
-  console.log(phoneNumber);
   const users = JSON.parse(localStorage.getItem("userData")) || [];
   const nav = useNavigate();
   const createAccount = () => {
@@ -33,6 +27,9 @@ const SignUp = () => {
     // localStorage.setItem("userData", JSON.stringify(users.concat(newData)));
     console.log(userData);
     // console.log(users);
+    if(!password && !email && !firstName && !role){
+      alert("Please fill in the Blanks")
+    }else
     nav("/login");
   };
 
@@ -251,6 +248,7 @@ const SignUp = () => {
             justifyContent: "center",
           }}
           onClick={createAccount}
+          className="createAccount"
         >
           <p style={{ fontSize: "20px", color: "#fff" }}>Create Account</p>
         </div>
@@ -265,6 +263,7 @@ const SignUp = () => {
             justifyContent: "center",
           }}
           onClick={() => nav("/login")}
+          className="createAccount"
         >
           <p style={{ fontSize: "20px", color: "#fff" }}>Login</p>
         </div>

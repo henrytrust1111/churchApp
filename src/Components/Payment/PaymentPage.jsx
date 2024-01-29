@@ -28,6 +28,12 @@ const Payment = () => {
     localStorage.setItem("payment", JSON.stringify([...paymentData, newData]));
 
     alert("Your Transaction is being Processed");
+    setAmount("")
+    setFullName("")
+    setPaymentData("")
+    setPaymentMethod("")
+    setPaymentType("")
+    setRole("")
   };
 
   return (
